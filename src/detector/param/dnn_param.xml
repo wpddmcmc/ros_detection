@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<opencv_storage>
+
+<!-->Configration<-->
+<net_type>1</net_type>              <!-->0-ssd 1-yolo<-->
+<thresh>0.35</thresh>               <!-->confidence threshold<-->
+<nms_thresh>0.25</nms_thresh>       <!-->nms threshold<-->
+
+<!-->Yolo configration files<-->
+<Yolo_meanVal>1</Yolo_meanVal> 
+<Yolo_scaleFactor>0.003921569</Yolo_scaleFactor>
+<Yolo_config>/dnn_nets/yolo/yolov3-tiny.cfg</Yolo_config>
+<Yolo_model>/dnn_nets/yolo/yolov3-tiny.weights</Yolo_model>
+<coco_name>/dnn_nets/yolo/coco.names</coco_name>
+
+<!-->ssd configration files<-->
+<ssd_meanVal>127.5</ssd_meanVal> 
+<ssd_scaleFactor>0.007843</ssd_scaleFactor>
+<ssd_config>/dnn_nets/ssd/deploy.prototxt</ssd_config>
+<ssd_model>/dnn_nets/ssd/mobilenet_iter_73000.caffemodel</ssd_model>
+<ssd_name>/dnn_nets/ssd/ssd.names</ssd_name>
+</opencv_storage>

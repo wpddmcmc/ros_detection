@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<opencv_storage>
+                                            <!--0-disable     1-enable-->
+<show_time>1</show_time>                    <!--display time on output image-->
+<debug_mode>1</debug_mode>                  <!--wait for keyboard to process next frame-->
+<show_fps>0</show_fps>                      <!--display fps on output image-->
+
+<use_camera>1</use_camera>                  <!--use camera or video-->
+<video_file>test.mp4</video_file>           <!--video file name in {ProjectFolder}/video-->
+<camera_index>1</camera_index>              <!--camera index-->
+<window_width>1280</window_width>           <!--window size width-->
+<window_height>720</window_height>          <!--window size height-->
+
+</opencv_storage>
