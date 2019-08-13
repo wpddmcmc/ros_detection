@@ -1,0 +1,4 @@
+<launch>
+    <node name="listener_node" pkg = "detector" type = "listener_node" output = "screen">
+    </node>
+</launch>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<opencv_storage>
+
+<!-->Configration<-->
+<device>1</device>              <!-->0-cpu 1-gpu<-->
+<thresh>0.5</thresh>               <!-->confidence threshold<-->
+
+<!-->ssd configration files<-->
+<mean_value>(127.5,127.5,127.5)</mean_value> 
+<mean_file></mean_file>
+<model_file>/dnn_nets/ssd300/deploy.prototxt</model_file>
+<weights_file>/dnn_nets/ssd300/VGG_VOC0712_SSD_300x300_iter_120000.caffemodel</weights_file>
+<name_file>/dnn_nets/ssd300/ssd.names</name_file>
+</opencv_storage>

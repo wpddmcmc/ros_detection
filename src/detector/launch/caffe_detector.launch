@@ -1,0 +1,8 @@
+<launch>
+    <node name="caffe_node" pkg = "detector" type = "caffe_node" output = "screen">
+    </node>
+    <node name="stream_node" pkg = "detector" type = "stream_node" output = "screen">
+    </node>
+    <node name="listener_node" pkg = "detector" type = "listener_node" output = "screen">
+    </node>
+</launch>

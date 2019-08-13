@@ -1,0 +1,6 @@
+ <launch>
+    <node name="stream_node" pkg = "detector" type = "stream_node" output = "screen">
+    </node>
+    <node name="listener_node" pkg = "detector" type = "listener_node" output = "screen">
+    </node>
+</launch>

@@ -1,4 +1,3 @@
-string time
 string[] names
 float64[] confidences
 int64[] centers_x

@@ -1,0 +1,4 @@
+<launch>
+    <node name="caffe_node" pkg = "detector" type = "caffe_node" output = "screen">
+    </node>
+</launch>
